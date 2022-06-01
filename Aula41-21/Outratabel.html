@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+    <style>
+        table {
+           width: 100%;
+           border-color: gray;
+           border-collapse: collapse; 
+           border: 1,5px solid gray;
+           text-align: left;
+           
+        }
+
+        tr,td,th {
+           border-color: gray;
+           border-collapse: collapse; 
+           border: 1,5px solid gray;
+        }
+        caption {
+            caption-side: bottom;
+            font-size: 12pt;
+        }
+
+        #Endereco {
+            text-align: center;
+        }
+        thead{
+            font-size: 14pt;
+        }
+        thead, tfoot {
+            background-color: rgba(245, 46, 85, 0.795);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: aquamarine;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: cornflowerblue;
+        }
+        tbody tr:hover{
+            background-color: rgb(149, 245, 4);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Tab.1 ABC Company</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Nome</th>
+                <th rowspan="2">Telefone</th>
+                <th colspan="5" id="Endereco">Endereço</th>
+            </tr>
+
+        <tr>
+            <th>Rua</th>
+            <th>Número</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>CEP</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vanderlei Claúdio</td>
+                <td>+552198745631</td>
+                <td>Av. Alberto Silva</td>
+                <td>123</td>
+                <td>Rio de janeiro</td>
+                <td>RJ</td>
+                <td>123456</td>
+            </tr>
+            <tr>
+                <td>Vanderlei Claúdio</td>
+                <td>+552198745631</td>
+                <td>Av. Alberto Silva</td>
+                <td>123</td>
+                <td>Rio de janeiro</td>
+                <td>RJ</td>
+                <td>123456</td>
+            </tr>        <tr>
+                <td>Vanderlei Claúdio</td>
+                <td>+552198745631</td>
+                <td>Av. Alberto Silva</td>
+                <td>123</td>
+                <td>Rio de janeiro</td>
+                <td>RJ</td>
+                <td>123456</td>
+            </tr>        <tr>
+                <td>Vanderlei Claúdio</td>
+                <td>+552198745631</td>
+                <td>Av. Alberto Silva</td>
+                <td>123</td>
+                <td>Rio de janeiro</td>
+                <td>RJ</td>
+                <td>123456</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">Maiores informações acesse contato conosco</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
