@@ -1,0 +1,29 @@
+p {
+    text-align: justify;
+    margin : 20px ;
+    border: 10px solid turquoise;
+    border-top-color: blueviolet;
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    background-image: url();
+}
+
+#Primeiro {
+    background-color: blue;
+    border-bottom-color: rgba(0, 0,0, .1) ;
+
+}
+#seg {
+    background-color: brown;
+}
+
+div {
+    width: 600px;
+    height: 800px;
+    background-image: url("https://blogdecoracao.biz/wp-content/uploads/2015/04/revestimentos-e-pisos.jpg");
+    background-repeat: no-repeat;
+    background-position: right top ;
+    background-color: aquamarine;
+}
+

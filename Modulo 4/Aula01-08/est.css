@@ -1,0 +1,24 @@
+label[for] {
+    background-color: lightcyan;
+}
+input[placeholder] {
+    /*color: red;*/
+    background-color: whitesmoke;
+}
+
+input,#assunto{
+    margin: 10px;
+}
+
+option[value="S"]{
+    color: blue;
+}
+option[value="R"]{
+    color: red;
+}
+option[value="E"]{
+    color: green;
+}
+form[method=post]:hover{
+    background-color: grey;
+}

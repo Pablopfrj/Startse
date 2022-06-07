@@ -1,0 +1,22 @@
+p::first-letter{
+    color: blueviolet;
+}
+
+p::first-line{
+    background-color: rgba(59, 9, 83, 0.932);
+}
+
+p::selection{
+    color: red;
+    background-color: violet;
+}
+
+ol li::marker{
+    color: aqua;
+}
+
+
+
+
+
+
